@@ -19,7 +19,7 @@ const NewProjectButton = () => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button>+ Create Project</Button>
+        <Button className="rounded-full">+</Button>
       </DialogTrigger>
       <DialogContent className="bg-white sm:max-w-[425px] rounded-sm">
         <DialogHeader>
